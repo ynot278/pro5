@@ -57,7 +57,58 @@ static int createSHM(){
 	return 0;
 }
 
+static void removeSHM(){
+	if(shm != NULL){
+		if(shmdt(shm) == -1){
+			perror("./oss error: shm shmdt");
+		}
+		shm = NULL;
+	}
+
+	if(shmid > 0){
+		if(shmctl(shmid, IPC_RMID, NULL) == -1){
+			perror("./oss error: shmid shmctl");
+		}
+		shmid = 0;
+	}
+
+	if(queueID > 0){
+		if(msgctl(queueID, IPC_RMID, NULL) == -1){
+			perror("./oss error: queueID msgctl");
+		}
+		queueID = -1;
+	}
+}
+
+static void fillDescriptors(struct descriptor oss[descriptorResources]){
+	int shareDescriptors = 4;
+	while(shareDescriptors > 0){
+		const int descriptorIndex = rand() % 20;
+
+		if (oss[descriptorIndex].shareValue == 0){
+			oss[descriptorIndex].shareValue = 1;
+			--shareDescriptors;
+		}
+	}
+
+	int i;
+	for (i = 0; i < 20; i++){
+		if(oss[i].shareValue == 0){
+			oss[i].intValue = 1 + (rand() % 10);
+		} else {
+			oss[i].intValue = 1;
+		}
+		oss[i].maxValue = oss[i].intValue;
+	}
+}
+
+
 int main(void) {
-  printf("Hello World\n");
-  return 0;
+  if(createSHM() < 0){
+		return EXIT_FAILURE;
+	}
+
+	memset(shm, '\0', sizeof(struct shmem));
+
+	alarm(5);
 }
