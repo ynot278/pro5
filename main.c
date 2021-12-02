@@ -12,12 +12,15 @@
 #include <sys/shm.h>
 #include <errno.h>
 #include <signal.h>
+#include <sys/time.h>
 
 #include "oss.h"
 
 static int shmid = -1;
 static int queueID = -1;
 static struct shmem *shm = NULL;
+
+static struct timeval tick;
 
 static int createSHM(){
 	const key_t key = ftok("main.c", shmKey);
