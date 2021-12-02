@@ -87,7 +87,7 @@ static void fillDescriptors(struct descriptor oss[descriptorResources]){
 
 		if (oss[descriptorIndex].shareValue == 0){
 			oss[descriptorIndex].shareValue = 1;
-			--shareDescriptors;
+			shareDescriptors--;
 		}
 	}
 
@@ -111,4 +111,6 @@ int main(void) {
 	memset(shm, '\0', sizeof(struct shmem));
 
 	alarm(5);
+
+	fillDescriptors(shm->descripArr);
 }
