@@ -26,10 +26,10 @@ struct userProcess{
 	struct descriptor descripArr[descriptorResources];
 };
 
-struct ossClock{
+typedef struct ossClock{
 	unsigned int seconds;
 	unsigned int nanoseconds;
-};
+} ossClock;
 
 ossClock *ossClockptr;
 int ossClockshmid;
@@ -42,7 +42,7 @@ static int shmTest(){
 	}
 
 	ossClockptr = shmat(ossClockshmid, NULL, 0);
-	if(shm == (void *) -1){
+	if(ossClockptr == (void *) -1){
 		perror("error: shmat ossClockptr");
 		return -1;
 	}
