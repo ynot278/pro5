@@ -100,6 +100,13 @@ static void fillDescriptors(struct descriptor oss[descriptorResources]){
 	}
 }
 
+void increaseClock(){
+	int timeIncrease;
+
+	timeIncrease = (unsigned int) (rand() % 500000000 + 1);
+	ossClockptr->nanoseconds += timeIncrease;
+}
+
 int main(void) {
   if(createSHM() < 0){
 		return EXIT_FAILURE;
