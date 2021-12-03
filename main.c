@@ -20,8 +20,6 @@ static int shmid = -1;
 static int queueID = -1;
 static struct shmem *shm = NULL;
 
-static struct timeval tick;
-
 static int createSHM(){
 	const key_t key = ftok("main.c", shmKey);
 
@@ -102,9 +100,12 @@ static void fillDescriptors(struct descriptor oss[descriptorResources]){
 	}
 }
 
-
 int main(void) {
   if(createSHM() < 0){
+		return EXIT_FAILURE;
+	}
+
+	if(shmTest() < 0){
 		return EXIT_FAILURE;
 	}
 

@@ -26,8 +26,29 @@ struct userProcess{
 	struct descriptor descripArr[descriptorResources];
 };
 
+struct ossClock{
+	unsigned int seconds;
+	unsigned int nanoseconds;
+};
+
+ossClock *ossClockptr;
+int ossClockshmid;
+
+static int shmTest(){
+	ossClockshmid = shmget(8837, sizeof(ossClock), IPC_CREAT | IPC_EXCL | 0666);
+	if(ossClockshmid == -1){
+		perror("error: shmget ossClockshmid");
+		return -1;
+	}
+
+	ossClockptr = shmat(ossClockshmid, NULL, 0);
+	if(shm == (void *) -1){
+		perror("error: shmat ossClockptr");
+		return -1;
+	}
+}
+
 struct shmem{
-	struct timeval time;
 	struct userProcess user[MAX_PROCESS];
 	struct descriptor descripArr[descriptorResources];
 };

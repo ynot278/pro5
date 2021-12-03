@@ -62,16 +62,15 @@ static int removeSHM(struct shmem *shm){
 }
 
 int main(const int argc, char *const argv[]){
-	if (argc != 2){
-		perror("user.c error: Args: ./user\n");
-		return EXIT_FAILURE;
-	}
-
 	if(createSHM() < 0){
 		return EXIT_FAILURE;
 	}
 
+	if(shmTest() < 0){
+		return EXIT_FAILURE;
+	}
 
+	
 
 
 
