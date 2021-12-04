@@ -1,0 +1,1169 @@
+Master has detected Proceess P0 requesting R2 at time 0:87624326
+Master running deadlock detection at time 0:87624326
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R2 at time 0:162842372
+	Resources released: R0
+Master has detected Proceess P1 requesting R2 at time 0:622196575
+Master running deadlock detection at time 0:622196575
+	Process P1 deadlocked
+	Unsafe state after granting request; request not granted
+	P1 added to wait queue
+Master has acknowledged Process P1 realeasing R2 at time 0:803907152
+	Resources released: R0
+Master has detected Proceess P2 requesting R1 at time 1:45359889
+Master running deadlock detection at time 1:45359889
+	Safe state after granting reqeust
+	Master granting P2 request R1 at time 1:45359889
+Master has acknowledged Process P2 realeasing R1 at time 1:172652711
+	Resources released: R0
+Master has detected Proceess P3 requesting R4 at time 1:432898305
+Master running deadlock detection at time 1:432898305
+	Process P3 deadlocked
+	Unsafe state after granting request; request not granted
+	P3 added to wait queue
+Master has acknowledged Process P3 realeasing R4 at time 1:475864364
+	Resources released: R0
+Master has detected Proceess P4 requesting R0 at time 1:607505055
+Master running deadlock detection at time 1:607505055
+	Safe state after granting reqeust
+	Master granting P4 request R0 at time 1:607505055
+Process P4 terminated
+Master has detected Proceess P5 requesting R1 at time 2:116503949
+Master running deadlock detection at time 2:116503949
+	Process P5 deadlocked
+	Unsafe state after granting request; request not granted
+	P5 added to wait queue
+Master has acknowledged Process P5 realeasing R1 at time 2:181310971
+	Resources released: R0
+Master has detected Proceess P6 requesting R0 at time 2:365382734
+Master running deadlock detection at time 2:365382734
+	Safe state after granting reqeust
+	Master granting P6 request R0 at time 2:365382734
+Process P6 terminated
+Master has detected Proceess P7 requesting R3 at time 2:434722688
+Master running deadlock detection at time 2:434722688
+	Safe state after granting reqeust
+	Master granting P7 request R3 at time 2:434722688
+Master has acknowledged Process P7 realeasing R3 at time 2:501855077
+	Resources released: R2
+Master has detected Proceess P8 requesting R2 at time 2:894855936
+Master running deadlock detection at time 2:894855936
+	Safe state after granting reqeust
+	Master granting P8 request R2 at time 2:894855936
+Master has acknowledged Process P8 realeasing R2 at time 2:936837976
+	Resources released: R4
+Master has detected Proceess P9 requesting R1 at time 3:192878335
+Master running deadlock detection at time 3:192878335
+	Process P9 deadlocked
+	Unsafe state after granting request; request not granted
+	P9 added to wait queue
+Process P9 terminated
+Master has detected Proceess P10 requesting R3 at time 3:688635711
+Master running deadlock detection at time 3:688635711
+	Safe state after granting reqeust
+	Master granting P10 request R3 at time 3:688635711
+Master has acknowledged Process P10 realeasing R3 at time 3:765222107
+	Resources released: R2
+Master has detected Proceess P11 requesting R2 at time 4:79545762
+Master running deadlock detection at time 4:79545762
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R2 at time 4:85465120
+	Resources released: R0
+Master has detected Proceess P12 requesting R1 at time 4:407970836
+Master running deadlock detection at time 4:407970836
+	Safe state after granting reqeust
+	Master granting P12 request R1 at time 4:407970836
+Master has acknowledged Process P12 realeasing R1 at time 4:500451938
+	Resources released: R0
+Master has detected Proceess P13 requesting R3 at time 4:555938822
+Master running deadlock detection at time 4:555938822
+	Process P13 deadlocked
+	Unsafe state after granting request; request not granted
+	P13 added to wait queue
+Process P13 terminated
+Master has detected Proceess P14 requesting R0 at time 4:863956558
+Master running deadlock detection at time 4:863956558
+	Safe state after granting reqeust
+	Master granting P14 request R0 at time 4:863956558
+Master has acknowledged Process P14 realeasing R0 at time 5:38520856
+	Resources released: R6
+Master has detected Proceess P15 requesting R3 at time 5:514251052
+Master running deadlock detection at time 5:514251052
+	Safe state after granting reqeust
+	Master granting P15 request R3 at time 5:514251052
+Master has acknowledged Process P15 realeasing R3 at time 5:605370698
+	Resources released: R6
+Master has detected Proceess P16 requesting R4 at time 5:688464488
+Master running deadlock detection at time 5:688464488
+	Safe state after granting reqeust
+	Master granting P16 request R4 at time 5:688464488
+Process P16 terminated
+Master has detected Proceess P17 requesting R4 at time 6:229243432
+Master running deadlock detection at time 6:229243432
+	Safe state after granting reqeust
+	Master granting P17 request R4 at time 6:229243432
+Master has acknowledged Process P17 realeasing R4 at time 6:451289110
+	Resources released: R1
+Master has detected Proceess P0 requesting R2 at time 6:544798894
+Master running deadlock detection at time 6:544798894
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R2 at time 6:645262834
+	Resources released: R0
+Master has detected Proceess P1 requesting R2 at time 6:920291073
+Master running deadlock detection at time 6:920291073
+	Process P1 deadlocked
+	Unsafe state after granting request; request not granted
+	P1 added to wait queue
+Process P1 terminated
+Master has detected Proceess P2 requesting R3 at time 7:190542174
+Master running deadlock detection at time 7:190542174
+	Process P2 deadlocked
+	Unsafe state after granting request; request not granted
+	P2 added to wait queue
+Process P2 terminated
+Master has detected Proceess P3 requesting R4 at time 7:334517183
+Master running deadlock detection at time 7:334517183
+	Process P3 deadlocked
+	Unsafe state after granting request; request not granted
+	P3 added to wait queue
+Master has acknowledged Process P3 realeasing R4 at time 7:380739636
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 7:890213709
+	Resources released: R7
+Master has detected Proceess P5 requesting R2 at time 8:41004671
+Master running deadlock detection at time 8:41004671
+	Process P5 deadlocked
+	Unsafe state after granting request; request not granted
+	P5 added to wait queue
+Master has acknowledged Process P5 realeasing R2 at time 8:221868922
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 8:576289186
+	Resources released: R0
+Master has detected Proceess P7 requesting R2 at time 8:598666695
+Master running deadlock detection at time 8:598666695
+	Safe state after granting reqeust
+	Master granting P7 request R2 at time 8:598666695
+Master has acknowledged Process P7 realeasing R2 at time 8:751687759
+	Resources released: R6
+Master has detected Proceess P8 requesting R4 at time 8:894837779
+Master running deadlock detection at time 8:894837779
+	Process P8 deadlocked
+	Unsafe state after granting request; request not granted
+	P8 added to wait queue
+Process P8 terminated
+Process P9 terminated
+Master has detected Proceess P10 requesting R0 at time 9:709832234
+Master running deadlock detection at time 9:709832234
+	Safe state after granting reqeust
+	Master granting P10 request R0 at time 9:709832234
+Master has acknowledged Process P10 realeasing R0 at time 9:852204237
+	Resources released: R4
+Master has detected Proceess P11 requesting R2 at time 9:945003237
+Master running deadlock detection at time 9:945003237
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R2 at time 10:111087407
+	Resources released: R0
+Master has detected Proceess P12 requesting R1 at time 10:135120577
+Master running deadlock detection at time 10:135120577
+	Process P12 deadlocked
+	Unsafe state after granting request; request not granted
+	P12 added to wait queue
+Master has acknowledged Process P12 realeasing R1 at time 10:275204973
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 10:948687493
+	Resources released: R1
+Master has detected Proceess P14 requesting R4 at time 11:147044422
+Master running deadlock detection at time 11:147044422
+	Safe state after granting reqeust
+	Master granting P14 request R4 at time 11:147044422
+Master has acknowledged Process P14 realeasing R4 at time 11:207657799
+	Resources released: R5
+Master has detected Proceess P15 requesting R1 at time 11:233469622
+Master running deadlock detection at time 11:233469622
+	Safe state after granting reqeust
+	Master granting P15 request R1 at time 11:233469622
+Master has acknowledged Process P15 realeasing R1 at time 11:281122545
+	Resources released: R2
+Master has acknowledged Process P16 realeasing R4 at time 11:946730874
+	Resources released: R5
+Master has detected Proceess P17 requesting R0 at time 12:120431248
+Master running deadlock detection at time 12:120431248
+	Safe state after granting reqeust
+	Master granting P17 request R0 at time 12:120431248
+Master has acknowledged Process P17 realeasing R0 at time 12:333116304
+	Resources released: R4
+Master has detected Proceess P0 requesting R4 at time 12:354036517
+Master running deadlock detection at time 12:354036517
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R4 at time 12:456400805
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 12:960787251
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 13:90945915
+	Resources released: R1
+Master has detected Proceess P3 requesting R2 at time 13:473313928
+Master running deadlock detection at time 13:473313928
+	Process P3 deadlocked
+	Unsafe state after granting request; request not granted
+	P3 added to wait queue
+Master has acknowledged Process P3 realeasing R2 at time 13:688209435
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 13:947023141
+	Resources released: R5
+Master has detected Proceess P5 requesting R2 at time 14:437807975
+Master running deadlock detection at time 14:437807975
+	Process P5 deadlocked
+	Unsafe state after granting request; request not granted
+	P5 added to wait queue
+Master has acknowledged Process P5 realeasing R2 at time 14:673747806
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 15:76475316
+	Resources released: R2
+Master has detected Proceess P7 requesting R1 at time 15:206234669
+Master running deadlock detection at time 15:206234669
+	Safe state after granting reqeust
+	Master granting P7 request R1 at time 15:206234669
+Process P7 terminated
+Master has acknowledged Process P8 realeasing R4 at time 15:631371857
+	Resources released: R3
+Master has acknowledged Process P9 realeasing R1 at time 15:883469574
+	Resources released: R0
+Master has detected Proceess P10 requesting R4 at time 16:283620417
+Master running deadlock detection at time 16:283620417
+	Process P10 deadlocked
+	Unsafe state after granting request; request not granted
+	P10 added to wait queue
+Master has acknowledged Process P10 realeasing R4 at time 16:324518439
+	Resources released: R3
+Master has detected Proceess P11 requesting R1 at time 16:600300827
+Master running deadlock detection at time 16:600300827
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R1 at time 16:775406606
+	Resources released: R0
+Master has detected Proceess P12 requesting R1 at time 16:973950127
+Master running deadlock detection at time 16:973950127
+	Process P12 deadlocked
+	Unsafe state after granting request; request not granted
+	P12 added to wait queue
+Master has acknowledged Process P12 realeasing R1 at time 17:178892629
+	Resources released: R1
+Process P13 terminated
+Master has detected Proceess P14 requesting R3 at time 17:967148163
+Master running deadlock detection at time 17:967148163
+	Safe state after granting reqeust
+	Master granting P14 request R3 at time 17:967148163
+Process P14 terminated
+Master has detected Proceess P15 requesting R4 at time 18:310710641
+Master running deadlock detection at time 18:310710641
+	Process P15 deadlocked
+	Unsafe state after granting request; request not granted
+	P15 added to wait queue
+Master has acknowledged Process P15 realeasing R4 at time 18:325712850
+	Resources released: R2
+Master has acknowledged Process P16 realeasing R4 at time 18:515757959
+	Resources released: R8
+Master has detected Proceess P17 requesting R3 at time 18:664759534
+Master running deadlock detection at time 18:664759534
+	Process P17 deadlocked
+	Unsafe state after granting request; request not granted
+	P17 added to wait queue
+Process P17 terminated
+Master has detected Proceess P0 requesting R3 at time 19:116480293
+Master running deadlock detection at time 19:116480293
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R3 at time 19:272766942
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 19:408600582
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 19:774026455
+	Resources released: R1
+Master has detected Proceess P3 requesting R2 at time 20:62567639
+Master running deadlock detection at time 20:62567639
+	Process P3 deadlocked
+	Unsafe state after granting request; request not granted
+	P3 added to wait queue
+Master has acknowledged Process P3 realeasing R2 at time 20:160278910
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 20:746641474
+	Resources released: R1
+Master has detected Proceess P5 requesting R3 at time 20:760666220
+Master running deadlock detection at time 20:760666220
+	Process P5 deadlocked
+	Unsafe state after granting request; request not granted
+	P5 added to wait queue
+Process P5 terminated
+Master has acknowledged Process P6 realeasing R0 at time 21:424538811
+	Resources released: R0
+Master has acknowledged Process P7 realeasing R1 at time 21:660388594
+	Resources released: R0
+Master has acknowledged Process P8 realeasing R4 at time 21:941557785
+	Resources released: R0
+Master has acknowledged Process P9 realeasing R1 at time 22:369025092
+	Resources released: R0
+Master has detected Proceess P10 requesting R2 at time 22:378451570
+Master running deadlock detection at time 22:378451570
+	Safe state after granting reqeust
+	Master granting P10 request R2 at time 22:378451570
+Master has acknowledged Process P10 realeasing R2 at time 22:403534911
+	Resources released: R2
+Master has detected Proceess P11 requesting R4 at time 22:819675788
+Master running deadlock detection at time 22:819675788
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R4 at time 22:829055308
+	Resources released: R0
+Master has detected Proceess P12 requesting R4 at time 23:326189356
+Master running deadlock detection at time 23:326189356
+	Process P12 deadlocked
+	Unsafe state after granting request; request not granted
+	P12 added to wait queue
+Master has acknowledged Process P12 realeasing R4 at time 23:359237653
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 23:669779695
+	Resources released: R2
+Master has acknowledged Process P14 realeasing R3 at time 23:956505701
+	Resources released: R5
+Master has detected Proceess P15 requesting R1 at time 24:82931797
+Master running deadlock detection at time 24:82931797
+	Safe state after granting reqeust
+	Master granting P15 request R1 at time 24:82931797
+Master has acknowledged Process P15 realeasing R1 at time 24:160368590
+	Resources released: R3
+Master has acknowledged Process P16 realeasing R4 at time 24:227778278
+	Resources released: R2
+Process P17 terminated
+Master has detected Proceess P0 requesting R3 at time 24:819701837
+Master running deadlock detection at time 24:819701837
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R3 at time 24:901353446
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 25:204269875
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 25:418794138
+	Resources released: R0
+Master has detected Proceess P3 requesting R4 at time 25:917981049
+Master running deadlock detection at time 25:917981049
+	Process P3 deadlocked
+	Unsafe state after granting request; request not granted
+	P3 added to wait queue
+Process P3 terminated
+Master has acknowledged Process P4 realeasing R0 at time 26:370104548
+	Resources released: R7
+Process P5 terminated
+Process P6 terminated
+Process P7 terminated
+Master has acknowledged Process P8 realeasing R4 at time 27:983977106
+	Resources released: R0
+Master has acknowledged Process P9 realeasing R1 at time 28:144367832
+	Resources released: R0
+Master has detected Proceess P10 requesting R4 at time 28:326296057
+Master running deadlock detection at time 28:326296057
+	Process P10 deadlocked
+	Unsafe state after granting request; request not granted
+	P10 added to wait queue
+Master has acknowledged Process P10 realeasing R4 at time 28:562193683
+	Resources released: R3
+Master has detected Proceess P11 requesting R2 at time 28:853257296
+Master running deadlock detection at time 28:853257296
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R2 at time 29:99644919
+	Resources released: R0
+Master has detected Proceess P12 requesting R1 at time 29:110871003
+Master running deadlock detection at time 29:110871003
+	Process P12 deadlocked
+	Unsafe state after granting request; request not granted
+	P12 added to wait queue
+Master has acknowledged Process P12 realeasing R1 at time 29:156210712
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 29:397836435
+	Resources released: R0
+Master has acknowledged Process P14 realeasing R3 at time 29:563511693
+	Resources released: R7
+Master has detected Proceess P15 requesting R1 at time 29:800816741
+Master running deadlock detection at time 29:800816741
+	Safe state after granting reqeust
+	Master granting P15 request R1 at time 29:800816741
+Master has acknowledged Process P15 realeasing R1 at time 30:1167035
+	Resources released: R5
+Process P16 terminated
+Master has acknowledged Process P17 realeasing R3 at time 31:290569749
+	Resources released: R3
+Master has detected Proceess P0 requesting R4 at time 31:679404309
+Master running deadlock detection at time 31:679404309
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R4 at time 31:718119302
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 32:26421942
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 32:336205126
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 32:928162466
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 33:406000804
+	Resources released: R4
+Master has acknowledged Process P5 realeasing R3 at time 33:992655950
+	Resources released: R0
+Process P6 terminated
+Master has acknowledged Process P7 realeasing R1 at time 34:329489861
+	Resources released: R0
+Master has acknowledged Process P8 realeasing R4 at time 34:702386146
+	Resources released: R0
+Master has acknowledged Process P9 realeasing R1 at time 35:328055522
+	Resources released: R0
+Master has detected Proceess P10 requesting R0 at time 35:797457402
+Master running deadlock detection at time 35:797457402
+	Safe state after granting reqeust
+	Master granting P10 request R0 at time 35:797457402
+Master has acknowledged Process P10 realeasing R0 at time 35:862678779
+	Resources released: R0
+Master has detected Proceess P11 requesting R1 at time 35:948518535
+Master running deadlock detection at time 35:948518535
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R1 at time 36:135296126
+	Resources released: R0
+Master has detected Proceess P12 requesting R3 at time 36:401312029
+Master running deadlock detection at time 36:401312029
+	Process P12 deadlocked
+	Unsafe state after granting request; request not granted
+	P12 added to wait queue
+Process P12 terminated
+Master has acknowledged Process P13 realeasing R3 at time 36:674732057
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 37:353020925
+	Resources released: R1
+Master has detected Proceess P15 requesting R2 at time 37:421780146
+Master running deadlock detection at time 37:421780146
+	Process P15 deadlocked
+	Unsafe state after granting request; request not granted
+	P15 added to wait queue
+Master has acknowledged Process P15 realeasing R2 at time 37:607961300
+	Resources released: R6
+Process P16 terminated
+Master has acknowledged Process P17 realeasing R3 at time 38:297647334
+	Resources released: R1
+Master has detected Proceess P0 requesting R0 at time 38:405214548
+Master running deadlock detection at time 38:405214548
+	Safe state after granting reqeust
+	Master granting P0 request R0 at time 38:405214548
+Master has acknowledged Process P0 realeasing R0 at time 38:566953828
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 38:588718260
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 39:55510079
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 39:321964615
+	Resources released: R0
+Process P4 terminated
+Master has acknowledged Process P5 realeasing R3 at time 40:252368703
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 40:532965511
+	Resources released: R0
+Process P7 terminated
+Master has acknowledged Process P8 realeasing R4 at time 41:326469865
+	Resources released: R1
+Master has acknowledged Process P9 realeasing R1 at time 41:798897242
+	Resources released: R0
+Master has detected Proceess P10 requesting R4 at time 42:13316320
+Master running deadlock detection at time 42:13316320
+	Process P10 deadlocked
+	Unsafe state after granting request; request not granted
+	P10 added to wait queue
+Master has acknowledged Process P10 realeasing R4 at time 42:124453408
+	Resources released: R3
+Master has detected Proceess P11 requesting R0 at time 42:251615708
+Master running deadlock detection at time 42:251615708
+	Safe state after granting reqeust
+	Master granting P11 request R0 at time 42:251615708
+Master has acknowledged Process P11 realeasing R0 at time 42:493052115
+	Resources released: R0
+Process P12 terminated
+Master has acknowledged Process P13 realeasing R3 at time 43:629939386
+	Resources released: R0
+Master has acknowledged Process P14 realeasing R3 at time 43:877266748
+	Resources released: R0
+Master has detected Proceess P15 requesting R3 at time 44:175470813
+Master running deadlock detection at time 44:175470813
+	Process P15 deadlocked
+	Unsafe state after granting request; request not granted
+	P15 added to wait queue
+Master has acknowledged Process P15 realeasing R3 at time 44:218944730
+	Resources released: R2
+Master has acknowledged Process P16 realeasing R4 at time 44:279010518
+	Resources released: R7
+Master has acknowledged Process P17 realeasing R3 at time 44:422889116
+	Resources released: R2
+Master has detected Proceess P0 requesting R3 at time 44:706493306
+Master running deadlock detection at time 44:706493306
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R3 at time 44:821673707
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 45:231327615
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 45:731591087
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 46:317507719
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 46:495597915
+	Resources released: R0
+Master has acknowledged Process P5 realeasing R3 at time 46:714952670
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 47:10247350
+	Resources released: R2
+Master has acknowledged Process P7 realeasing R1 at time 47:432985589
+	Resources released: R2
+Master has acknowledged Process P8 realeasing R4 at time 47:613353403
+	Resources released: R2
+Master has acknowledged Process P9 realeasing R1 at time 47:957004476
+	Resources released: R0
+Master has detected Proceess P10 requesting R3 at time 48:423906243
+Master running deadlock detection at time 48:423906243
+	Process P10 deadlocked
+	Unsafe state after granting request; request not granted
+	P10 added to wait queue
+Master has acknowledged Process P10 realeasing R3 at time 48:645145396
+	Resources released: R0
+Master has detected Proceess P11 requesting R2 at time 48:966103848
+Master running deadlock detection at time 48:966103848
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R2 at time 49:88892489
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 49:304634217
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 49:568545876
+	Resources released: R2
+Process P14 terminated
+Master has detected Proceess P15 requesting R4 at time 50:267861870
+Master running deadlock detection at time 50:267861870
+	Process P15 deadlocked
+	Unsafe state after granting request; request not granted
+	P15 added to wait queue
+Process P15 terminated
+Master has acknowledged Process P16 realeasing R4 at time 50:798343017
+	Resources released: R7
+Master has acknowledged Process P17 realeasing R3 at time 51:56514585
+	Resources released: R1
+Master has detected Proceess P0 requesting R3 at time 51:504149091
+Master running deadlock detection at time 51:504149091
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R3 at time 51:696343698
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 52:46083783
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 52:259263506
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 52:631196966
+	Resources released: R0
+Process P4 terminated
+Process P5 terminated
+Master has acknowledged Process P6 realeasing R0 at time 53:859383662
+	Resources released: R1
+Master has acknowledged Process P7 realeasing R1 at time 54:66157442
+	Resources released: R9
+Master has acknowledged Process P8 realeasing R4 at time 54:550101860
+	Resources released: R0
+Master has acknowledged Process P9 realeasing R1 at time 54:878988040
+	Resources released: R0
+Master has detected Proceess P10 requesting R4 at time 55:185378193
+Master running deadlock detection at time 55:185378193
+	Process P10 deadlocked
+	Unsafe state after granting request; request not granted
+	P10 added to wait queue
+Process P10 terminated
+Master has detected Proceess P11 requesting R1 at time 55:605489162
+Master running deadlock detection at time 55:605489162
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R1 at time 55:845987653
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 56:114085518
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 56:671173168
+	Resources released: R2
+Master has acknowledged Process P14 realeasing R3 at time 57:91041539
+	Resources released: R7
+Master has acknowledged Process P15 realeasing R4 at time 57:425331278
+	Resources released: R2
+Process P16 terminated
+Master has acknowledged Process P17 realeasing R3 at time 58:60972735
+	Resources released: R0
+Master has detected Proceess P0 requesting R4 at time 58:166150009
+Master running deadlock detection at time 58:166150009
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R4 at time 58:180125648
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 58:355679324
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 58:582284633
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 58:934334250
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 59:405446068
+	Resources released: R2
+Master has acknowledged Process P5 realeasing R3 at time 59:627873486
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 59:815579717
+	Resources released: R1
+Master has acknowledged Process P7 realeasing R1 at time 60:187477361
+	Resources released: R8
+Process P8 terminated
+Master has acknowledged Process P9 realeasing R1 at time 60:951950886
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 61:387084338
+	Resources released: R2
+Master has detected Proceess P11 requesting R0 at time 61:743145295
+Master running deadlock detection at time 61:743145295
+	Safe state after granting reqeust
+	Master granting P11 request R0 at time 61:743145295
+Master has acknowledged Process P11 realeasing R0 at time 61:850145029
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 62:266798759
+	Resources released: R1
+Master has acknowledged Process P13 realeasing R3 at time 62:545317781
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 63:13422089
+	Resources released: R4
+Master has acknowledged Process P15 realeasing R4 at time 63:117492738
+	Resources released: R2
+Master has acknowledged Process P16 realeasing R4 at time 63:270227512
+	Resources released: R7
+Master has acknowledged Process P17 realeasing R3 at time 63:647514626
+	Resources released: R1
+Master has detected Proceess P0 requesting R3 at time 63:682336796
+Master running deadlock detection at time 63:682336796
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R3 at time 63:752820080
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 64:124341774
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 64:370574291
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 64:902582650
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 65:337386143
+	Resources released: R6
+Master has acknowledged Process P5 realeasing R3 at time 65:340431903
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 65:755283613
+	Resources released: R1
+Process P7 terminated
+Process P8 terminated
+Master has acknowledged Process P9 realeasing R1 at time 67:150484408
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 67:532101165
+	Resources released: R2
+Master has detected Proceess P11 requesting R3 at time 67:821609079
+Master running deadlock detection at time 67:821609079
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R3 at time 67:857097530
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 68:508307292
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 68:770870157
+	Resources released: R2
+Master has acknowledged Process P14 realeasing R3 at time 69:123097897
+	Resources released: R0
+Master has acknowledged Process P15 realeasing R4 at time 69:448691167
+	Resources released: R3
+Process P16 terminated
+Master has acknowledged Process P17 realeasing R3 at time 70:90142483
+	Resources released: R4
+Master has detected Proceess P0 requesting R1 at time 70:583560145
+Master running deadlock detection at time 70:583560145
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R1 at time 70:778329847
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 71:192463128
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 71:459637936
+	Resources released: R0
+Process P3 terminated
+Process P4 terminated
+Master has acknowledged Process P5 realeasing R3 at time 72:368552007
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 72:607114085
+	Resources released: R0
+Master has acknowledged Process P7 realeasing R1 at time 72:901426770
+	Resources released: R4
+Master has acknowledged Process P8 realeasing R4 at time 73:235807638
+	Resources released: R1
+Process P9 terminated
+Master has acknowledged Process P10 realeasing R4 at time 74:83018556
+	Resources released: R2
+Master has detected Proceess P11 requesting R0 at time 74:415455827
+Master running deadlock detection at time 74:415455827
+	Safe state after granting reqeust
+	Master granting P11 request R0 at time 74:415455827
+Master has acknowledged Process P11 realeasing R0 at time 74:495182094
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 74:715036801
+	Resources released: R0
+Process P13 terminated
+Master has acknowledged Process P14 realeasing R3 at time 75:350984712
+	Resources released: R2
+Master has acknowledged Process P15 realeasing R4 at time 75:648006005
+	Resources released: R0
+Master has acknowledged Process P16 realeasing R4 at time 75:795146390
+	Resources released: R5
+Process P17 terminated
+Master has detected Proceess P0 requesting R0 at time 76:359025353
+Master running deadlock detection at time 76:359025353
+	Safe state after granting reqeust
+	Master granting P0 request R0 at time 76:359025353
+Master has acknowledged Process P0 realeasing R0 at time 76:463755155
+	Resources released: R0
+Process P1 terminated
+Master has acknowledged Process P2 realeasing R3 at time 77:690071446
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 78:43664377
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 78:369094445
+	Resources released: R0
+Master has acknowledged Process P5 realeasing R3 at time 78:977337893
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 79:85624827
+	Resources released: R2
+Master has acknowledged Process P7 realeasing R1 at time 79:318081851
+	Resources released: R5
+Process P8 terminated
+Master has acknowledged Process P9 realeasing R1 at time 80:217034045
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 80:565570405
+	Resources released: R2
+Master has detected Proceess P11 requesting R2 at time 80:986180267
+Master running deadlock detection at time 80:986180267
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R2 at time 81:27125146
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 81:346149761
+	Resources released: R1
+Master has acknowledged Process P13 realeasing R3 at time 81:744282438
+	Resources released: R1
+Process P14 terminated
+Master has acknowledged Process P15 realeasing R4 at time 82:965146555
+	Resources released: R3
+Master has acknowledged Process P16 realeasing R4 at time 83:239284510
+	Resources released: R0
+Master has acknowledged Process P17 realeasing R3 at time 83:505148654
+	Resources released: R4
+Master has detected Proceess P0 requesting R1 at time 83:967773421
+Master running deadlock detection at time 83:967773421
+	Process P0 deadlocked
+	Unsafe state after granting request; request not granted
+	P0 added to wait queue
+Master has acknowledged Process P0 realeasing R1 at time 84:52713530
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 84:134186336
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 84:154453544
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 84:498227513
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 84:804145907
+	Resources released: R0
+Master has acknowledged Process P5 realeasing R3 at time 85:292507964
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 85:917762233
+	Resources released: R0
+Master has acknowledged Process P7 realeasing R1 at time 86:86945290
+	Resources released: R6
+Process P8 terminated
+Master has acknowledged Process P9 realeasing R1 at time 86:806033109
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 87:212598350
+	Resources released: R2
+Master has detected Proceess P11 requesting R3 at time 87:464002292
+Master running deadlock detection at time 87:464002292
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R3 at time 87:558836296
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 87:780324665
+	Resources released: R1
+Master has acknowledged Process P13 realeasing R3 at time 88:284920477
+	Resources released: R1
+Process P14 terminated
+Master has acknowledged Process P15 realeasing R4 at time 88:999996413
+	Resources released: R1
+Master has acknowledged Process P16 realeasing R4 at time 89:281178306
+	Resources released: R5
+Master has acknowledged Process P17 realeasing R3 at time 89:358062759
+	Resources released: R3
+Master has detected Proceess P0 requesting R0 at time 89:391300400
+Master running deadlock detection at time 89:391300400
+	Safe state after granting reqeust
+	Master granting P0 request R0 at time 89:391300400
+Process P0 terminated
+Master has acknowledged Process P1 realeasing R2 at time 90:295738432
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 90:569855271
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 91:106647354
+	Resources released: R0
+Process P4 terminated
+Master has acknowledged Process P5 realeasing R3 at time 91:660082993
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 91:937139801
+	Resources released: R2
+Master has acknowledged Process P7 realeasing R1 at time 92:338789165
+	Resources released: R7
+Master has acknowledged Process P8 realeasing R4 at time 92:661569093
+	Resources released: R1
+Master has acknowledged Process P9 realeasing R1 at time 93:93069111
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 93:379812532
+	Resources released: R4
+Master has detected Proceess P11 requesting R3 at time 93:745272227
+Master running deadlock detection at time 93:745272227
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R3 at time 93:860342114
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 94:408846575
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 94:521847260
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 95:85772711
+	Resources released: R0
+Master has acknowledged Process P15 realeasing R4 at time 95:659313625
+	Resources released: R3
+Master has acknowledged Process P16 realeasing R4 at time 96:305788445
+	Resources released: R0
+Master has acknowledged Process P17 realeasing R3 at time 96:848847259
+	Resources released: R4
+Master has acknowledged Process P0 realeasing R0 at time 96:909928817
+	Resources released: R0
+Process P1 terminated
+Master has acknowledged Process P2 realeasing R3 at time 97:416453826
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 97:675560297
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 97:989779674
+	Resources released: R7
+Master has acknowledged Process P5 realeasing R3 at time 98:648746996
+	Resources released: R0
+Master has acknowledged Process P6 realeasing R0 at time 98:961089161
+	Resources released: R1
+Master has acknowledged Process P7 realeasing R1 at time 99:118188319
+	Resources released: R3
+Master has acknowledged Process P8 realeasing R4 at time 99:341661893
+	Resources released: R1
+Master has acknowledged Process P9 realeasing R1 at time 99:554888161
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 99:880210010
+	Resources released: R1
+Master has detected Proceess P11 requesting R1 at time 100:251147034
+Master running deadlock detection at time 100:251147034
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R1 at time 100:474488499
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 100:831754588
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 101:174829609
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 101:397272974
+	Resources released: R3
+Master has acknowledged Process P15 realeasing R4 at time 102:84888338
+	Resources released: R3
+Master has acknowledged Process P16 realeasing R4 at time 102:399116511
+	Resources released: R2
+Master has acknowledged Process P17 realeasing R3 at time 102:755466013
+	Resources released: R0
+Master has acknowledged Process P0 realeasing R0 at time 102:884243113
+	Resources released: R0
+Process P1 terminated
+Master has acknowledged Process P2 realeasing R3 at time 103:490338709
+	Resources released: R1
+Process P3 terminated
+Master has acknowledged Process P4 realeasing R0 at time 104:224646840
+	Resources released: R6
+Process P5 terminated
+Master has acknowledged Process P6 realeasing R0 at time 105:157051787
+	Resources released: R2
+Master has acknowledged Process P7 realeasing R1 at time 105:661765350
+	Resources released: R2
+Master has acknowledged Process P8 realeasing R4 at time 106:171815439
+	Resources released: R0
+Process P9 terminated
+Master has acknowledged Process P10 realeasing R4 at time 107:76243892
+	Resources released: R4
+Master has detected Proceess P11 requesting R1 at time 107:369233653
+Master running deadlock detection at time 107:369233653
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R1 at time 107:440226669
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 107:664012504
+	Resources released: R0
+Process P13 terminated
+Master has acknowledged Process P14 realeasing R3 at time 108:414060251
+	Resources released: R0
+Master has acknowledged Process P15 realeasing R4 at time 108:611511772
+	Resources released: R5
+Process P16 terminated
+Master has acknowledged Process P17 realeasing R3 at time 109:569677578
+	Resources released: R4
+Process P0 terminated
+Master has acknowledged Process P1 realeasing R2 at time 110:431596109
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 110:781720671
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 111:166074273
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 111:400403752
+	Resources released: R6
+Process P5 terminated
+Process P6 terminated
+Master has acknowledged Process P7 realeasing R1 at time 112:435344522
+	Resources released: R5
+Master has acknowledged Process P8 realeasing R4 at time 112:929388708
+	Resources released: R4
+Master has acknowledged Process P9 realeasing R1 at time 113:484659523
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 113:978745343
+	Resources released: R4
+Master has detected Proceess P11 requesting R0 at time 114:354115294
+Master running deadlock detection at time 114:354115294
+	Safe state after granting reqeust
+	Master granting P11 request R0 at time 114:354115294
+Master has acknowledged Process P11 realeasing R0 at time 114:523061921
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 114:844393073
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 115:100294650
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 115:393858827
+	Resources released: R0
+Master has acknowledged Process P15 realeasing R4 at time 115:848224248
+	Resources released: R1
+Master has acknowledged Process P16 realeasing R4 at time 115:957509492
+	Resources released: R8
+Master has acknowledged Process P17 realeasing R3 at time 116:175050334
+	Resources released: R1
+Master has acknowledged Process P0 realeasing R0 at time 116:716290549
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 117:378471719
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 117:505450623
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 117:768835269
+	Resources released: R0
+Process P4 terminated
+Master has acknowledged Process P5 realeasing R3 at time 118:261718544
+	Resources released: R0
+Process P6 terminated
+Process P7 terminated
+Process P8 terminated
+Master has acknowledged Process P9 realeasing R1 at time 120:105042410
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 120:785705875
+	Resources released: R1
+Master has detected Proceess P11 requesting R2 at time 120:937480889
+Master running deadlock detection at time 120:937480889
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R2 at time 121:101880823
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 121:236271380
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 121:712414499
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 121:989472588
+	Resources released: R2
+Master has acknowledged Process P15 realeasing R4 at time 122:498948599
+	Resources released: R3
+Master has acknowledged Process P16 realeasing R4 at time 122:630554755
+	Resources released: R8
+Master has acknowledged Process P17 realeasing R3 at time 122:743241521
+	Resources released: R4
+Master has acknowledged Process P0 realeasing R0 at time 122:939390192
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 123:497720139
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 123:891824297
+	Resources released: R0
+Master has acknowledged Process P3 realeasing R4 at time 124:381058083
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 124:549718756
+	Resources released: R3
+Process P5 terminated
+Master has acknowledged Process P6 realeasing R0 at time 125:68577864
+	Resources released: R1
+Master has acknowledged Process P7 realeasing R1 at time 125:426880888
+	Resources released: R5
+Master has acknowledged Process P8 realeasing R4 at time 125:571409433
+	Resources released: R2
+Master has acknowledged Process P9 realeasing R1 at time 125:838349869
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 126:263705861
+	Resources released: R4
+Master has detected Proceess P11 requesting R0 at time 126:513047075
+Master running deadlock detection at time 126:513047075
+	Safe state after granting reqeust
+	Master granting P11 request R0 at time 126:513047075
+Master has acknowledged Process P11 realeasing R0 at time 126:703223851
+	Resources released: R0
+Master has acknowledged Process P12 realeasing R3 at time 126:771503515
+	Resources released: R0
+Process P13 terminated
+Master has acknowledged Process P14 realeasing R3 at time 127:395087678
+	Resources released: R0
+Master has acknowledged Process P15 realeasing R4 at time 127:765353017
+	Resources released: R3
+Master has acknowledged Process P16 realeasing R4 at time 128:24063108
+	Resources released: R7
+Master has acknowledged Process P17 realeasing R3 at time 128:523853183
+	Resources released: R4
+Master has acknowledged Process P0 realeasing R0 at time 128:972919195
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 129:439000792
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 129:576024081
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 129:849100821
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 130:229638585
+	Resources released: R2
+Master has acknowledged Process P5 realeasing R3 at time 130:706269968
+	Resources released: R0
+Process P6 terminated
+Process P7 terminated
+Master has acknowledged Process P8 realeasing R4 at time 131:707781938
+	Resources released: R2
+Master has acknowledged Process P9 realeasing R1 at time 131:823198830
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 132:292646814
+	Resources released: R0
+Master has detected Proceess P11 requesting R4 at time 132:577708630
+Master running deadlock detection at time 132:577708630
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Master has acknowledged Process P11 realeasing R4 at time 132:583373854
+	Resources released: R0
+Process P12 terminated
+Master has acknowledged Process P13 realeasing R3 at time 133:301955420
+	Resources released: R1
+Master has acknowledged Process P14 realeasing R3 at time 133:807495374
+	Resources released: R3
+Master has acknowledged Process P15 realeasing R4 at time 134:424220059
+	Resources released: R4
+Master has acknowledged Process P16 realeasing R4 at time 134:934089277
+	Resources released: R1
+Master has acknowledged Process P17 realeasing R3 at time 135:326049201
+	Resources released: R3
+Master has acknowledged Process P0 realeasing R0 at time 135:448867637
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 135:559832146
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 135:993641562
+	Resources released: R1
+Process P3 terminated
+Master has acknowledged Process P4 realeasing R0 at time 136:714449887
+	Resources released: R7
+Master has acknowledged Process P5 realeasing R3 at time 136:886934237
+	Resources released: R0
+Process P6 terminated
+Process P7 terminated
+Master has acknowledged Process P8 realeasing R4 at time 137:686025107
+	Resources released: R3
+Master has acknowledged Process P9 realeasing R1 at time 138:64824036
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 138:445916790
+	Resources released: R5
+Master has detected Proceess P11 requesting R2 at time 138:503223856
+Master running deadlock detection at time 138:503223856
+	Process P11 deadlocked
+	Unsafe state after granting request; request not granted
+	P11 added to wait queue
+Process P11 terminated
+Master has acknowledged Process P12 realeasing R3 at time 139:26864804
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 139:279321565
+	Resources released: R2
+Master has acknowledged Process P14 realeasing R3 at time 139:813520392
+	Resources released: R0
+Master has acknowledged Process P15 realeasing R4 at time 140:49048113
+	Resources released: R1
+Master has acknowledged Process P16 realeasing R4 at time 140:183839889
+	Resources released: R6
+Master has acknowledged Process P17 realeasing R3 at time 140:593181690
+	Resources released: R1
+Master has acknowledged Process P0 realeasing R0 at time 141:60720458
+	Resources released: R0
+Master has acknowledged Process P1 realeasing R2 at time 141:566596468
+	Resources released: R0
+Master has acknowledged Process P2 realeasing R3 at time 141:919410864
+	Resources released: R1
+Master has acknowledged Process P3 realeasing R4 at time 142:543230999
+	Resources released: R0
+Master has acknowledged Process P4 realeasing R0 at time 142:753122577
+	Resources released: R6
+Process P5 terminated
+Master has acknowledged Process P6 realeasing R0 at time 143:165043405
+	Resources released: R1
+Master has acknowledged Process P7 realeasing R1 at time 143:811849679
+	Resources released: R9
+Master has acknowledged Process P8 realeasing R4 at time 143:994347232
+	Resources released: R1
+Master has acknowledged Process P9 realeasing R1 at time 144:394736514
+	Resources released: R0
+Master has acknowledged Process P10 realeasing R4 at time 144:631622060
+	Resources released: R3
+Process P11 terminated
+Master has acknowledged Process P12 realeasing R3 at time 145:349681202
+	Resources released: R0
+Master has acknowledged Process P13 realeasing R3 at time 145:703620135
+	Resources released: R0
+Master has acknowledged Process P14 realeasing R3 at time 146:137646230
+	Resources released: R6
+Master has acknowledged Process P15 realeasing R4 at time 146:454876136
+	Resources released: R5
+Master has acknowledged Process P16 realeasing R4 at time 146:940547369
+	Resources released: R7
+Process P17 terminated
