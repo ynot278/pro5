@@ -102,9 +102,14 @@ static void fillDescriptors(struct descriptor oss[descriptorResources]){
 
 void increaseClock(){
 	int timeIncrease;
+	int overFlow;
 
 	timeIncrease = (unsigned int) (rand() % 500000000 + 1);
-	ossClockptr->nanoseconds += timeIncrease;
+	if ((ossClockptr->nanoseconds + timeIncrease) > 1000000000){
+		overFlow = (ossClockptr->nanoseconds + timeIncrease) - 1000000000;
+		ossClockptr->nanoseconds = overFlow;
+		ossClockptr->seconds += 1;
+	} else ossClockptr->nanoseconds += timeIncrease;
 }
 
 int main(void) {
@@ -121,4 +126,10 @@ int main(void) {
 	alarm(5);
 
 	fillDescriptors(shm->descripArr);
+
+	while (shm->userCount < MAX_PROCESS){
+		increaseClock();
+		shm->userCount += 1;
+		printf("Time: %d seconds: %d nanoseconds\n", ossClockptr->seconds, ossClockptr->nanoseconds);
+	}
 }

@@ -49,6 +49,7 @@ static int shmTest(){
 }
 
 struct shmem{
+	int userCount;
 	struct userProcess user[MAX_PROCESS];
 	struct descriptor descripArr[descriptorResources];
 };
