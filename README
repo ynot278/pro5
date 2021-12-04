@@ -1,0 +1,26 @@
+# Project 5 OS
+
+Author: Tony Pham
+
+# Files
+    main.c - main
+    user_proc.c - process
+    oss.h
+    Makefile
+		README
+		logfile.txt - output file
+    
+# Build
+    make
+
+# Run
+    ./oss
+    
+# Remove runsim/testsim
+    make clean
+
+##### Changes/Implemented
+> Not able to fully complete
+> output file works
+> sometimes shm segments not removed
+> sometimes no output file in my own system (replit)

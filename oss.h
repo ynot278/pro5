@@ -11,6 +11,7 @@ enum ftokKeys{
 enum processState{
 	RDY,
 	BLOCK,
+	WAIT,
 	TERMINATE
 };
 
@@ -21,7 +22,8 @@ struct descriptor{
 };
 
 struct userProcess{
-	int id, pid;
+	int resource;
+	int allowed;
 	enum processState state;
 	struct descriptor descripArr[descriptorResources];
 };
